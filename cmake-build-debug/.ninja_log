@@ -1,0 +1,18 @@
+# ninja log v5
+2	531	6880008899127307	CMakeFiles/Nodos_y_listas.dir/StudentNode.cpp.obj	2f3e31a3650066ef
+17	746	6880008901251628	CMakeFiles/Nodos_y_listas.dir/StudentList.cpp.obj	222f3f573d539964
+12	742	6880008900982349	CMakeFiles/Nodos_y_listas.dir/main.cpp.obj	a1b655e909da3678
+8	821	6880008902029558	CMakeFiles/Nodos_y_listas.dir/Student.cpp.obj	ff71d31253a0bfb9
+821	920	6880008902981449	Nodos_y_listas.exe	7906243f46a7a844
+0	311	6882837607628248	build.ninja	8261c46930b6a6d5
+2	494	6882837613241623	CMakeFiles/Nodos_y_listas.dir/Node/StudentNode.cpp.obj	5b649bea53701cef
+7	645	6882837614737483	CMakeFiles/Nodos_y_listas.dir/List/StudentList.cpp.obj	c06f9f2260528415
+5	667	6882837614966883	CMakeFiles/Nodos_y_listas.dir/main.cpp.obj	a1b655e909da3678
+9	711	6882837615415713	CMakeFiles/Nodos_y_listas.dir/Student/Student.cpp.obj	8539c29e6cde91b4
+711	889	6882837617144932	Nodos_y_listas.exe	a7e955ffcd4a2ab3
+3	503	6882841560587889	CMakeFiles/Nodos_y_listas.dir/main.cpp.obj	a1b655e909da3678
+504	589	6882841561415676	Nodos_y_listas.exe	a7e955ffcd4a2ab3
+3	481	6882841647686419	CMakeFiles/Nodos_y_listas.dir/main.cpp.obj	a1b655e909da3678
+481	564	6882841648504233	Nodos_y_listas.exe	a7e955ffcd4a2ab3
+2	487	6882841709124549	CMakeFiles/Nodos_y_listas.dir/main.cpp.obj	a1b655e909da3678
+488	571	6882841709942376	Nodos_y_listas.exe	a7e955ffcd4a2ab3

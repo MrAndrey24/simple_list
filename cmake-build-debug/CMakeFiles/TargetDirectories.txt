@@ -1,0 +1,3 @@
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Ejercicios en clase/Nodos y listas/cmake-build-debug/CMakeFiles/Nodos_y_listas.dir
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Ejercicios en clase/Nodos y listas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Andrey Sam/Documents/Universidad/Estructuras de Datos 1/Ejercicios en clase/Nodos y listas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
