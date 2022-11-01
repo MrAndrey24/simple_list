@@ -20,8 +20,8 @@ void StudentList::addStudent(Student student) {
         while (AUX->getNext() != NULL) {
             AUX = AUX->getNext();
         }
-        node->setBefore(AUX);
         AUX->setNext(node);
+        node->setBefore(AUX);
     }
 }
 
