@@ -21,9 +21,27 @@ int main() {
     maryangel.setCareer("Computer Engineer");
     maryangel.setAge(30);
 
+    Student Nazira;
+    Nazira.setName("Nazira");
+    Nazira.setCareer("Pilot");
+    Nazira.setAge(46);
+
+    Student Heidy;
+    Heidy.setName("Heidy");
+    Heidy.setCareer("Computer Engineer");
+    Heidy.setAge(36);
+
+    Student Eliecer;
+    Eliecer.setName("Eliecer");
+    Eliecer.setCareer("Police officer");
+    Eliecer.setAge(24);
+
     list->addStudent(andrey);
     list->addStudent(carlos);
     list->addStudent(maryangel);
+    list->addStudent(Nazira);
+    list->addStudent(Heidy);
+    list->addStudent(Eliecer);
     list->runList();
 
 

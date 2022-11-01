@@ -16,8 +16,12 @@ void StudentList::addStudent(Student student) {
     if (head == NULL) {
         head = node;
     } else {
-        node->setNext(head);
-        head = node;
+        StudentNode *AUX = head;
+        while (AUX->getNext() != NULL) {
+            AUX = AUX->getNext();
+        }
+        node->setBefore(AUX);
+        AUX->setNext(node);
     }
 }
 
@@ -28,9 +32,12 @@ void StudentList::runList() {
         throw std::runtime_error("Empty StudentList");
     }
     while (AUX != NULL) {
-        cout << AUX->getStudent().toString() << endl;
+        cout << "\n" << AUX->getStudent().toString() << endl;
         AUX = AUX->getNext();
     }
+
+    cout << "\n" << endl;
+    cout << "End of list" << endl;
 }
 
 

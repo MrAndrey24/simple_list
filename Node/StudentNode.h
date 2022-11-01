@@ -11,9 +11,10 @@
 class StudentNode {
 private:
     StudentNode *next;
+    StudentNode *before;
+    StudentNode *list;
     Student student;
 public:
-
 
     StudentNode(Student);
 
@@ -24,6 +25,14 @@ public:
     const Student &getStudent() const;
 
     void setStudent(const Student &student);
+
+    StudentNode *getBefore() const;
+
+    void setBefore(StudentNode *before);
+
+    StudentNode *getList() const;
+
+    void setList(StudentNode *list);
 
 
 };

@@ -7,6 +7,8 @@
 StudentNode::StudentNode(Student student) {
     this->student = student;
     next = NULL;
+    before = NULL;
+    list = NULL;
 }
 
 StudentNode *StudentNode::getNext() const {
@@ -23,5 +25,21 @@ const Student &StudentNode::getStudent() const {
 
 void StudentNode::setStudent(const Student &student) {
     StudentNode::student = student;
+}
+
+StudentNode *StudentNode::getBefore() const {
+    return before;
+}
+
+void StudentNode::setBefore(StudentNode *before) {
+    StudentNode::before = before;
+}
+
+StudentNode *StudentNode::getList() const {
+    return list;
+}
+
+void StudentNode::setList(StudentNode *list) {
+    StudentNode::list = list;
 }
 
